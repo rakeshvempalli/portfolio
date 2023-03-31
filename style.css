@@ -1,11 +1,11 @@
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+@media screen and (max-width: 600px)
 html {
   box-sizing: border-box;
 }
-@media screen and (max-width: 600px)
+
 body {
   display: flex;
   flex-direction: column;
