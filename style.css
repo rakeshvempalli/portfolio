@@ -5,7 +5,7 @@
 html {
   box-sizing: border-box;
 }
-
+@media screen and (max-width: 600px)
 body {
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ body {
     border-top-color: white;
     margin-right: -30px;
   }
-
+@media screen and (max-width: 600px)
   #section-1 .arrow-bottom-green::after {
     top: 100%;
     right: 50%;
@@ -122,12 +122,13 @@ body {
 .bg-pattern {
   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/geometry2.png");
 }
-
+@media screen and (max-width: 600px)
 footer {
   padding: 60px 15px;
   background: white;
   text-align: center;
 }
+@media screen and (max-width: 600px)
 footer h3 a {
   font-size: 32px;
   padding: 0 10px;
@@ -140,6 +141,7 @@ footer h4 {
   margin-left: 100px;
 }
 
+@media screen and (max-width: 600px)
 .contact-form {
   color: #427259;
   font-weight: 800;
@@ -203,6 +205,7 @@ footer h4 {
   max-width: 800px;
   margin-left: auto;
 }
+@media screen and (max-width: 600px)
 
 .flex {
   display: flex;
@@ -259,6 +262,7 @@ footer h4 {
   object-fit: contain;
 }
 
+@media screen and (max-width: 600px)
 nav {
   width: 100%;
   background: white;
@@ -318,17 +322,19 @@ nav {
   }
 }
 /*section one*/
+@media screen and (max-width: 600px)
 #section-1 h1 {
   float: right;
   padding: 80px 40px 80px 120px;
 }
 
 /*section four*/
+@media screen and (max-width: 600px)
 #section-4 h2, #section-4 p {
   text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   #section-1 h1 {
     float: right;
     padding: 80px 80px 80px 120px;
